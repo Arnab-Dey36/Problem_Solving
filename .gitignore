@@ -1,0 +1,5 @@
+# Ignore executable files
+*.exe
+
+# Ignore specific C++ file
+Demo_Test.cpp
