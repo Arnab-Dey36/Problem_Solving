@@ -15,9 +15,16 @@ int main() {
 
 
     int n = s1.length();
-    int m = s1.length();
+    int m = s2.length();
 
-    /* Problem: Alternate Merge Two Strings */
+    /* Problem: Alternate Merge Two Strings 
+    Explanation: Given two strings s1 and s2, merge them alternatively i.e. 
+    the first character of s1 then the first character of s2 and so on till the strings end.
+
+    Example:
+    Input: s1 = "abc", s2 = "def" 
+    Output: "adbecf"
+    */
 
     /** Algorithm:
      * 1. Take two strings as input.
