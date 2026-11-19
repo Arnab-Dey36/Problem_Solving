@@ -58,7 +58,7 @@ int main() {
     */
    int maxLength = 0;
    int first = 0,second = 0;
-   vector<bool> hash(256,0);
+   vector<bool> hash(256,0); //count kar raha hai konsa chracter kitna bar aya hai. Agar koi character dubar aya toh usko chracter ko phele se delete karna hoga hash se.
    while (second < n) {
   
     while (hash[s[second]]) { // If the character is already present in the hash, shrink the window
